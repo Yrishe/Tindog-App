@@ -5,6 +5,7 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    font-weight: bolder;
 }
 
 .container-fluid {
@@ -15,7 +16,25 @@ h1 {
     font-family: 'Montserrat-Black';
     size: 4.5rem;
     line-height: 1.5;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 1.5rem;
 }
 
 /* Navigation Bar */
@@ -38,7 +57,7 @@ h1 {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: 'Montserrat-Light';
+    font-family: 'Montserra-Light';
 }
 
 /* Download Buttons */
@@ -57,39 +76,45 @@ h1 {
 /* Features */
 
 #features {
-    font-family: 'Montserrat-bold';
-    font-size: 1.5rem;
-    color: #8f8f8f;
-    align-items: center;
+    padding: 7% 15%;
+}
+
+.feature-box {
     text-align: center;
+    padding: 5%;
 }
 
-.easy {
-    color: black;
-    font-family: 'Montserrat-bold';
-}
-
-/* .feature-one {
-    padding-left: 7cm;
-}
-
-.feature-two {
-    padding-left: 5cm;
-    padding-right: 5cm;
-}
-
-.feature-three {
-    padding-right: 7cm;
-} */
-
-.icon-one {
+.icon {
     color: #ef8172;
+    padding-bottom: 1rem;
 }
 
-.icon-two {
-    color: #ef8172;
+.icon:hover {
+    color: #ff4c68;
 }
 
-.icon-three {
-    color: #ef8172;
+/* Testeminials */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testemonial-img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
