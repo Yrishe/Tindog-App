@@ -96,16 +96,19 @@ p {
 /* Testeminials */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
 
-.testemonial-img {
+.testimonial-image {
     border-radius: 100%;
     width: 10%;
     margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 #press {
