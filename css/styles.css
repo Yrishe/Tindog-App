@@ -127,3 +127,12 @@ p {
 #Pricing {
     padding: 100px;
 }
+
+.card-list {
+    list-style: none;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    text-align: center;
+}
